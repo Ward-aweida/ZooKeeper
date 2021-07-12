@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         editFly = findViewById(R.id.Fly);
         editGorilla = findViewById(R.id.Gorilla);
 
+        
         Bat bat = new Bat();
         bat.attackTown();
         bat.attackTown();
