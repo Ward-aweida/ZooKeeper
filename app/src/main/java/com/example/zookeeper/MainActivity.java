@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         editFly = findViewById(R.id.Fly);
         editGorilla = findViewById(R.id.Gorilla);
 
-        
+
         Bat bat = new Bat();
         bat.attackTown();
         bat.attackTown();
@@ -29,18 +29,18 @@ public class MainActivity extends AppCompatActivity {
         editFly.setText("Bird" + bat);
         editFly.setText("Bird" + bat.fly());
 
-        Gorilla g = new Gorilla(95);
-        g.throwSomething();
-        g.throwSomething();
-        g.throwSomething();
-        g.eatBananas();
-        g.eatBananas();
-        g.climb();
+        Gorilla gorilla = new Gorilla(95);
+        gorilla.throwSomething();
+        gorilla.throwSomething();
+        gorilla.throwSomething();
+        gorilla.eatBananas();
+        gorilla.eatBananas();
+        gorilla.climb();
 
-        editGorilla.setText("Gorilla" + g);
-        editGorilla.setText("Gorilla" + g.throwSomething());
-        editGorilla.setText("Gorilla" + g.eatBananas());
-        editGorilla.setText("" + g.toString());
+        editGorilla.setText("Gorilla" + gorilla);
+        editGorilla.setText("Gorilla" + gorilla.throwSomething());
+        editGorilla.setText("Gorilla" + gorilla.eatBananas());
+        editGorilla.setText("" + gorilla.toString());
 
 
     }
